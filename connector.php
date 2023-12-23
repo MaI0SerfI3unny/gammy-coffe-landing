@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
 $dbname = "gammy_coffee_db";
-$username = "root";
-$password = "";
+$username = "gammy_coffee";
+$password = "diwuhdsajk";
 $conn = new mysqli($host, $username, $password, $dbname);
