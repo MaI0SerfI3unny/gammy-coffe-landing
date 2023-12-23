@@ -1,0 +1,222 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.header .phone__container {
+  width: -webkit-fill-available;
+  margin-left: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .phone__container img {
+  margin-right: 10px;
+}
+
+.header .phone__container a {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Gilroy;
+  color: #FFF;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 1.5rem;
+  z-index: 6;
+}
+
+.header .link__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .link__menu ul {
+  width: 505px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .link__menu ul li {
+  margin: auto;
+}
+
+.header .link__menu ul li a {
+  cursor: pointer;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.header .link__menu button {
+  width: 105px;
+  height: 33px;
+  border-radius: 20px;
+  background: #FFF;
+  color: #161311;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.header span {
+  cursor: pointer;
+  width: 105px;
+  height: 33px;
+  border-radius: 20px;
+  background: #FFF;
+  color: #161311;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header span:hover {
+  color: #FFF;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: black;
+  border: 4px solid #FFF;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+.hamburger-menu {
+  position: absolute;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 120px 180px 190px 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-width: 395px;
+  height: 100%;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  background: #161311;
+}
+
+.menu__box li {
+  margin-bottom: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #FFF;
+  font-family: "Bona Nova", serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.menu__box li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__box li img {
+  margin-right: 20px;
+}
+
+.menu__box .phone__container {
+  display: none;
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+}
+
+.menu__box {
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+.menu__box::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  z-index: -1;
+  -webkit-transition: opacity 0.25s, visibility 0.25s;
+  transition: opacity 0.25s, visibility 0.25s;
+}
+
+@media (max-width: 942px) {
+  .header .link__menu ul,
+  .header .phone__container {
+    display: none;
+  }
+
+  .menu__box .phone__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header .container {
+    padding: 0.5rem 1.5rem;
+  }
+}

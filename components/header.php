@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gram Coffee</title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20231222161755" rel="stylesheet">
+	<link rel="Shortcut Icon" type="image/x-icon" href="img/general/favicon.svg" />
+	<link rel="stylesheet" href="css/libs/swiper.min.css?_v=20231222161755">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css?_v=20231222161755">
+	<script src="https://cdn.jsdelivr.net/npm/progressbar.js?_v=20231222161755"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap&_v=20231222161755"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap&_v=20231222161755" 
+		rel="stylesheet">
+
+	<link href="https://db.onlinewebfonts.com/c/58e6c78aa3d79ae3187555308dce17a8?family=Caros+Medium&_v=20231222161755" 
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20231222161755" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/paginationjs@2.1.5/dist/pagination.css?_v=20231222161755">
+    <script src="js/libs/jquery-3.6.0.min.js?_v=20231222161755"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js?_v=20231222161755"></script>
+</head>
+<body>
+<header class="header autoHide">
+		<div class="container">
+			<a href="/" class="header__logo"><img src="img/general/logo.svg" alt="logo"></a>
+	
+			<div class="phone__container">
+				<img src="img/icons/phone.svg" alt="phone">
+				<a href="tel:+380682652005">068 265 2005</a>
+			</div>
+	
+			<div class="link__menu">
+				<ul>
+					<li><a href="#about">Про нас</a></li>
+					<li><a href="#form">Відгуки</a></li>
+					<li><a href="#products">Галерея</a></li>
+				</ul>
+				<label for="menu__toggle">
+					<span>Меню</span>
+				</label>
+			</div>
+		</div>
+		<div class="hamburger-menu">
+			<input id="menu__toggle" type="checkbox" />
+
+			<ul class="menu__box">
+			  <li><a href="#"><img src="img/header/breakfast.svg"> Сніданки</a></li>
+			  <li><a href="#"><img src="img/header/soup.svg"> Перші страви</a></li>
+			  <li><a href="#"><img src="img/header/pasta.svg"> Другі страви</a></li>
+			  <li><a href="#"><img src="img/header/salad.svg"> Салати</a></li>
+			  <li><a href="#"><img src="img/header/pasta1.svg"> Паста</a></li>
+			  <li><a href="#"><img src="img/header/pizza.svg"> Піцца</a></li>
+			  <li><a href="#"><img src="img/header/fast-food.svg"> Фаст Фуд</a></li>
+			  <li><a href="#"><img src="img/header/chicken.svg"> Фірмові закуски</a></li>
+			  <li><a href="#"><img src="img/header/cheese.svg"> Холодні нарізки</a></li>
+			  <li><a href="#"><img src="img/header/dessert.svg"> Десерти</a></li>
+
+			  <div class="phone__container">
+				<img src="img/icons/phone.svg" alt="phone">
+				<a href="tel:+380682652005">068 265 2005</a>
+			</div>
+			</ul>
+		</div>
+</header>
+
+<main class="main">

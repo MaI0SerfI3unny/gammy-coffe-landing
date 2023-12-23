@@ -1,0 +1,267 @@
+.products h2 {
+  color: #00B78A;
+  font-family: "Bona Nova", serif;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.products .starter_menu {
+  min-height: 620px;
+  background: url("../../img/products/product1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 93px;
+}
+
+.products .first_dish {
+  min-height: 450px;
+  background: url("../../img/products/product2.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 93px;
+}
+
+.products .first_dish .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.products .second_dish {
+  min-height: 900px;
+  background: url("../../img/products/product3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 116px;
+}
+
+.products .pizza {
+  min-height: 532px;
+  background: url("../../img/products/product4.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 166px;
+}
+
+.products .pizza .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.products .salad {
+  min-height: 630px;
+  background: url("../../img/products/product5.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-bottom: 125px;
+}
+
+.products .fastfood {
+  min-height: 862px;
+  background: url("../../img/products/product6.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.products .fastfood .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.products .snack {
+  min-height: 630px;
+  background: url("../../img/products/product7.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  margin-bottom: 56px;
+}
+
+.products .cold_snack {
+  min-height: 353px;
+  background: url("../../img/products/product8.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 134px;
+}
+
+.products .cold_snack .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.products .dessert {
+  min-height: 490px;
+  background: url("../../img/products/product9.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  margin-bottom: 100px;
+}
+
+.products .hot_drink {
+  min-height: 490px;
+  background: url("../../img/products/product10.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-bottom: 100px;
+}
+
+.products .hot_drink .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.products .cold_drink {
+  margin-bottom: 119px;
+}
+
+.products .product_item {
+  max-width: 610px;
+  width: 100%;
+  color: #FFF;
+  font-family: "Bona Nova", serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.products .product_item .product_item_head {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 10px;
+}
+
+.products .product_item .product_item_head .product_item_title {
+  color: #FFF;
+  font-family: "Bona Nova", serif;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.products .product_item .product_item_head .product_item_attention {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.products .product_item .product_item_head .product_item_attention img {
+  margin-right: 20px;
+}
+
+.products .product_item .product_item_head .product_item_attention p {
+  color: #FFF;
+  font-family: "Bona Nova", serif;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.products .product_item .product_body {
+  max-width: 505px;
+}
+
+.products .product_item .product_body .product_body_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.products .product_item .product_body .product_body_item div {
+  width: 50%;
+}
+
+.products .product_item .product_body .product_body_item div:last-child {
+  text-align: end;
+}
+
+@media (max-width: 1200px) {
+  .product_item {
+    background: rgb(0, 183, 138);
+    padding: 20px;
+    border-radius: 34px;
+    -webkit-box-shadow: 23px;
+            box-shadow: 23px;
+  }
+}
+
+@media (max-width: 780px) {
+  .starter_menu::before,
+  .first_dish::before,
+  .second_dish::before,
+  .pizza::before,
+  .salad::before,
+  .fastfood::before,
+  .snack::before,
+  .cold_snack::before,
+  .dessert::before,
+  .hot_drink::before,
+  .cold_drink::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .starter_menu,
+  .first_dish,
+  .second_dish,
+  .pizza,
+  .salad,
+  .fastfood,
+  .snack,
+  .cold_snack,
+  .dessert,
+  .hot_drink,
+  .cold_drink {
+    background-size: cover !important;
+  }
+
+  .product_item_head {
+    display: block !important;
+  }
+
+  .product_item {
+    background: transparent;
+  }
+
+  .product_item_attention {
+    margin-top: 10px;
+  }
+}
