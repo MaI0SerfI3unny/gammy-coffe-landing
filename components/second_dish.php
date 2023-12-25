@@ -1,6 +1,9 @@
-<div data-aos="fade-right" data-aos-delay="300" data-aos-duration="600" class="second_dish">
+<div id="second_dish" data-aos="fade-right" data-aos-delay="300" data-aos-duration="600" class="second_dish">
     <div class="container">
         <div class="product_item">
+            <div class="img_container_tablet">
+                <img src="img/products/second_dish_mobile.png" alt="product">
+            </div>
             <div class="product_item_head">
                 <p class="product_item_title">Другі страви</p>
             </div>

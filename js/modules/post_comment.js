@@ -14,7 +14,6 @@ async function createComment(data) {
 
 $(document).ready(function () {
     $("#btnCreateComment").on("click", async function () {
-
       var name_value = $("#name_comment").val();
       var surname_value = $("#surname_comment").val();
       var text_value = $("#text_comment").val();
@@ -63,6 +62,11 @@ $(document).ready(function () {
             $("#surname_comment").val("");
             $("#text_comment").val("");
             $("#succ_form").css("display", "block");
+                var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+                window.location.reload(true);
+                window.onload = function() {
+                  window.scrollTo(0, scrollPosition);
+                }
           }
     });
 });

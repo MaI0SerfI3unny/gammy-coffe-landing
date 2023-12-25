@@ -1,6 +1,9 @@
-<div data-aos="fade-left" data-aos-delay="300" data-aos-duration="600" class="pizza">
+<div id="pizza" data-aos="fade-left" data-aos-delay="300" data-aos-duration="600" class="pizza">
     <div class="container">
         <div class="product_item">
+            <div class="img_container_tablet">
+                <img src="img/products/pizza_mobile.png" alt="product">
+            </div>
             <div class="product_item_head">
                 <p class="product_item_title">Піца</p>
             </div>

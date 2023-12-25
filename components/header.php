@@ -43,30 +43,27 @@
 					<li><a href="#form">Відгуки</a></li>
 					<li><a href="#products">Галерея</a></li>
 				</ul>
-				<label for="menu__toggle">
+				<label class="header_burger" for="menu__toggle">
 					<span>Меню</span>
 				</label>
 			</div>
 		</div>
 		<div class="hamburger-menu">
 			<input id="menu__toggle" type="checkbox" />
-
+			<label class="menu__btn" for="menu__toggle">
+				<span></span>
+			</label>
 			<ul class="menu__box">
-			  <li><a href="#"><img src="img/header/breakfast.svg"> Сніданки</a></li>
-			  <li><a href="#"><img src="img/header/soup.svg"> Перші страви</a></li>
-			  <li><a href="#"><img src="img/header/pasta.svg"> Другі страви</a></li>
-			  <li><a href="#"><img src="img/header/salad.svg"> Салати</a></li>
-			  <li><a href="#"><img src="img/header/pasta1.svg"> Паста</a></li>
-			  <li><a href="#"><img src="img/header/pizza.svg"> Піцца</a></li>
-			  <li><a href="#"><img src="img/header/fast-food.svg"> Фаст Фуд</a></li>
-			  <li><a href="#"><img src="img/header/chicken.svg"> Фірмові закуски</a></li>
-			  <li><a href="#"><img src="img/header/cheese.svg"> Холодні нарізки</a></li>
-			  <li><a href="#"><img src="img/header/dessert.svg"> Десерти</a></li>
-
-			  <div class="phone__container">
-				<img src="img/icons/phone.svg" alt="phone">
-				<a href="tel:+380682652005">068 265 2005</a>
-			</div>
+			  <li><a href="#lunch"><img src="img/header/breakfast.svg"> Сніданки</a></li>
+			  <li><a href="#first_dish"><img src="img/header/soup.svg"> Перші страви</a></li>
+			  <li><a href="#second_dish"><img src="img/header/pasta.svg"> Другі страви</a></li>
+			  <li><a href="#salad"><img src="img/header/salad.svg"> Салати</a></li>
+			  <li><a href="#pasta"><img src="img/header/pasta1.svg"> Паста</a></li>
+			  <li><a href="#pizza"><img src="img/header/pizza.svg"> Піцца</a></li>
+			  <li><a href="#fastfood"><img src="img/header/fast-food.svg"> Фаст Фуд</a></li>
+			  <li><a href="#snack"><img src="img/header/chicken.svg"> Фірмові закуски</a></li>
+			  <li><a href="#cold_snack"><img src="img/header/cheese.svg"> Холодні нарізки</a></li>
+			  <li><a href="#dessert"><img src="img/header/dessert.svg"> Десерти</a></li>
 			</ul>
 		</div>
 </header>

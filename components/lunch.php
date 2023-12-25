@@ -1,8 +1,11 @@
-<section class="products" id="products">
+<section id="lunch" class="products" id="products">
     <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="600" class="starter_menu">
     <div class="container">
         <h2>Меню</h2>
         <div class="product_item">
+            <div class="img_container_tablet">
+                <img src="img/products/product1.png" alt="product">
+            </div>
             <div class="product_item_head">
                 <p class="product_item_title">Сніданки</p>
                 <div class="product_item_attention">

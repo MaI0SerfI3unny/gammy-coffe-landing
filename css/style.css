@@ -623,7 +623,6 @@ textarea {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  padding: 120px 180px 190px 30px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -635,6 +634,11 @@ textarea {
   list-style: none;
   text-align: left;
   background: #161311;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  padding-top: 90px;
 }
 
 .menu__box li {
@@ -1522,6 +1526,7 @@ textarea {
 
 .success_alert {
   color: #00B78A;
+  margin-bottom: 20px;
 }
 
 .error_alert {
@@ -1880,7 +1885,6 @@ input[type=number] {
 
   .product_item {
     background: rgb(0, 183, 138);
-    padding: 20px;
     border-radius: 34px;
     -webkit-box-shadow: 23px;
             box-shadow: 23px;
@@ -1890,6 +1894,18 @@ input[type=number] {
 @media (max-width: 993px) {
   .form .comment__item {
     max-width: 100%;
+  }
+  
+  .product_item{
+    padding: 30px;
+  }
+
+  .form{
+    padding: 0;
+  }
+
+  .map_container{
+    margin-top: 0;
   }
 
   .form .comment__item__profile {
@@ -1926,12 +1942,37 @@ input[type=number] {
     width: 100%;
     margin-bottom: 40px;
   }
+
+  .form .container .col-container{
+    display: grid !important;
+  }
+
+  .col{
+    flex:1;
+  }
+  .col:nth-child(1) {
+    order: 2;
+  }
+ 
+  .col:nth-child(2) {
+    order: 1;
+  }
+
 }
 
 @media (max-width: 942px) {
   .header .link__menu ul,
   .header .phone__container {
     display: none;
+  }
+
+  .header .phone__container {
+    display: block;
+    margin-left: 0;
+  }
+
+  .about .video_container{
+    margin-bottom: 0;
   }
 
   .menu__box .phone__container {
@@ -1947,17 +1988,27 @@ input[type=number] {
   }
 
   .footer {
-    padding-bottom: 40px;
+    padding: 0;
   }
 
   .footer .container {
-    padding: 3rem;
-    display: block;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
   }
 
   .footer .container .logo_container {
     margin-bottom: 40px;
   }
+
+  .header_burger{
+    display: none;
+  }
+
+  .menu__btn{
+    display: block !important;
+  }
+
 }
 
 @media only screen and (max-width: 876px) {
@@ -2006,6 +2057,21 @@ input[type=number] {
   }
 }
 
+.img_container_tablet{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 35rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.img_container_tablet img{
+  width: 100%;
+}
+
 @media (max-width: 780px) {
   .starter_menu::before,
   .first_dish::before,
@@ -2038,7 +2104,12 @@ input[type=number] {
   .dessert,
   .hot_drink,
   .cold_drink {
+    background: none !important;
     background-size: cover !important;
+  }
+
+  .img_container_tablet{
+    display: flex;
   }
 
   .product_item_head {
@@ -2047,10 +2118,20 @@ input[type=number] {
 
   .product_item {
     background: transparent;
+    padding: 0;
   }
 
   .product_item_attention {
     margin-top: 10px;
+  }
+
+  .second_dish .product_item .img_container_tablet{
+    max-height: 50rem;
+    align-items: baseline;
+  }
+  .salad .product_item .img_container_tablet{
+    max-height: 50rem;
+    align-items: baseline;
   }
 }
 
@@ -2161,5 +2242,102 @@ input[type=number] {
 @media (max-height: 627px) {
   .banner .banner__col:last-child {
     display: none;
+  }
+}
+
+@media (max-width:525px) {
+  .products .starter_menu,
+  .products .first_dish,
+  .products .second_dish,
+  .products .pizza,
+  .products .salad,
+  .products .fastfood,
+  .products .snack,
+  .products .cold_snack,
+  .products .dessert,
+  .products .hot_drink,
+  .products .cold_drink {
+    margin-bottom: 40px;
+  }
+
+  .salad .product_item .img_container_tablet, 
+  .second_dish .product_item .img_container_tablet{
+    max-height: 45rem;
+    align-items: baseline;
+  }
+}
+
+@media (max-width:625px) {
+  .menu__box{
+    max-width: 100%;
+  }
+}
+
+@media (max-width:396px) {
+  .salad .product_item .img_container_tablet, 
+  .second_dish .product_item .img_container_tablet{
+    max-height: 35rem;
+    align-items: baseline;
+  }
+}
+
+/* -----------------------------------BURGER----------------------------------- */
+
+.menu__btn{
+  z-index: 6;
+  position: fixed;
+  top: 35px;
+  right: 30px;
+  width: 30px;
+  height: 60px;
+  display: none;
+}
+
+.menu__btn span:hover {
+  background-color: white;
+  border: none;
+}
+
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+
+
+@media (max-width:576px) {
+  .menu__btn{
+    top: 30px;
   }
 }
