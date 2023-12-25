@@ -1966,8 +1966,12 @@ input[type=number] {
     display: none;
   }
 
+  .header__logo img{
+    width: 44px;
+  }
+
   .header .phone__container {
-    display: block;
+    display: flex;
     margin-left: 0;
   }
 
@@ -2286,8 +2290,8 @@ input[type=number] {
 .menu__btn{
   z-index: 6;
   position: fixed;
-  top: 35px;
-  right: 30px;
+  top: 29px;
+  right: 17px;
   width: 30px;
   height: 60px;
   display: none;
@@ -2338,6 +2342,6 @@ input[type=number] {
 
 @media (max-width:576px) {
   .menu__btn{
-    top: 30px;
+    top: 25px;
   }
 }

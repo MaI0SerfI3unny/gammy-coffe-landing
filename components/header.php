@@ -34,7 +34,9 @@
 	
 			<div class="phone__container">
 				<img src="img/icons/phone.svg" alt="phone">
-				<a href="tel:+380682652005">068 265 2005</a>
+				<div>
+					<a href="tel:+380682652005">068 265 2005</a>
+				</div>
 			</div>
 	
 			<div class="link__menu">

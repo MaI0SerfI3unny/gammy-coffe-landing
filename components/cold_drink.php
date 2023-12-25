@@ -1,4 +1,4 @@
-<div data-aos="fade-right" data-aos-delay="300" data-aos-duration="600" class="cold_drink">
+<div data-aos="fade-top" data-aos-delay="300" data-aos-duration="600" class="cold_drink">
     <div class="container">
         <div class="product_item">
             <div class="product_item_head">

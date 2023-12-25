@@ -1,5 +1,5 @@
 <section id="lunch" class="products" id="products">
-    <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="600" class="starter_menu">
+    <div data-aos="fade-top" data-aos-delay="300" data-aos-duration="600" class="starter_menu">
     <div class="container">
         <h2>Меню</h2>
         <div class="product_item">

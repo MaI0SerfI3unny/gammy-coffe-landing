@@ -1,4 +1,4 @@
-<div id="cold_snack" data-aos="fade-left" data-aos-delay="300" data-aos-duration="600" class="cold_snack">
+<div id="cold_snack" data-aos="fade-top" data-aos-delay="300" data-aos-duration="600" class="cold_snack">
     <div class="container">
         <div class="product_item">
             <div class="img_container_tablet">
