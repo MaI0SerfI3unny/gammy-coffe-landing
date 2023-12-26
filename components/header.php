@@ -59,9 +59,8 @@
 			  <li><a href="#lunch"><img src="img/header/breakfast.svg"> Сніданки</a></li>
 			  <li><a href="#first_dish"><img src="img/header/soup.svg"> Перші страви</a></li>
 			  <li><a href="#second_dish"><img src="img/header/pasta.svg"> Другі страви</a></li>
+			  <li><a href="#pizza"><img src="img/header/pizza.svg"> Піца</a></li>
 			  <li><a href="#salad"><img src="img/header/salad.svg"> Салати</a></li>
-			  <li><a href="#pasta"><img src="img/header/pasta1.svg"> Паста</a></li>
-			  <li><a href="#pizza"><img src="img/header/pizza.svg"> Піцца</a></li>
 			  <li><a href="#fastfood"><img src="img/header/fast-food.svg"> Фаст Фуд</a></li>
 			  <li><a href="#snack"><img src="img/header/chicken.svg"> Фірмові закуски</a></li>
 			  <li><a href="#cold_snack"><img src="img/header/cheese.svg"> Холодні нарізки</a></li>

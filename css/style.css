@@ -1886,6 +1886,7 @@ input[type=number] {
   .product_item {
     background: rgb(0, 183, 138);
     border-radius: 34px;
+    padding: 30px;
     -webkit-box-shadow: 23px;
             box-shadow: 23px;
   }
@@ -1964,10 +1965,6 @@ input[type=number] {
   .header .link__menu ul,
   .header .phone__container {
     display: none;
-  }
-
-  .header__logo img{
-    width: 44px;
   }
 
   .header .phone__container {
@@ -2290,7 +2287,7 @@ input[type=number] {
 .menu__btn{
   z-index: 6;
   position: fixed;
-  top: 29px;
+  top: 35px;
   right: 17px;
   width: 30px;
   height: 60px;
@@ -2342,6 +2339,6 @@ input[type=number] {
 
 @media (max-width:576px) {
   .menu__btn{
-    top: 25px;
+    top: 32px;
   }
 }

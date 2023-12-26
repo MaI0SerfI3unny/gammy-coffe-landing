@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="logo_container">
 			<a href="/" class="footer__logo">
-				<img src="img/general/footer_logo.svg" alt="logo">
+				<img src="img/general/footer_logo.png" alt="logo">
 			</a>
 		</div>
 		<div class="info_container">
