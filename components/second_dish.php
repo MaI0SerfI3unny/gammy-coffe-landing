@@ -1,3 +1,23 @@
+<?php 
+    $products = array(
+        array('name' => 'Пельмені по домашньому', 'price' => 55),
+        array('name' => 'Вареники з соленим сиром та шкварками', 'price' => 55),
+        array('name' => 'Вареники з картоплею та шкварками', 'price' => 55),
+        array('name' => 'Картопляне пюре', 'price' => 40),
+        array('name' => 'Гречка з грибною підливою', 'price' => 50),
+        array('name' => 'Відбивна куряча', 'price' => 55),
+        array('name' => 'Рис з овочами', 'price' => 45),
+        array('name' => 'Котлета по французьки', 'price' => 60),
+        array('name' => 'Смажені пельмені у соусі  грибами', 'price' => 80),
+        array('name' => 'Картопля по селянськи', 'price' => 65),
+        array('name' => 'Банош з бринзою та шкварками', 'price' => 85),
+        array('name' => 'Банош з бринзою', 'price' => 85),
+        array('name' => 'Банош з грибами', 'price' => 85),
+        array('name' => 'Картопляні крокети з грибною підливою', 'price' => 55),
+        array('name' => 'Картопляні діпи', 'price' => 75),
+    );
+?>
+
 <div id="second_dish" data-aos="fade-top" data-aos-delay="300" data-aos-duration="600" class="second_dish">
     <div class="container">
         <div class="product_item">
@@ -9,118 +29,16 @@
             </div>
 
             <div class="product_body">
-                <div class="product_body_item">
-                    <div>
-                        <p>Пельмені по домашньому 200 г</p>
+                <?php foreach ($products as $product): ?>
+                    <div class="product_body_item">
+                        <div>
+                            <p><?php echo $product['name']; ?></p>
+                        </div>
+                        <div>
+                            <p><?php echo $product['price']; ?> грн</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Вареники з вишнею 200 г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Вареники з соленим сиром та шкварками 200 г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Вареники з картоплею та шкварками</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Картопляне пюре 200 г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Картопля по селянськи 200 г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Відбивна куряча 100 г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Котлета по французьки</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Бануш з бринзою та шкварками 400 г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Картопляні крокети з грибною підливою 200 г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Пельмені смажені в грибному соусі</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Рис з овочами</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Гречка з грибною підливою</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Картопляні діпи в сирному соусі</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>

@@ -1,3 +1,14 @@
+<?php 
+    $products = array(
+        array('name' => "Млинці з вишнями", 'price' => 50),
+        array('name' => "Млинці з сиром та родзинками", 'price' => 50),
+        array('name' => "Млинці з маковою начинкою", 'price' => 50),
+        array('name' => "Млинці з вишнями на пару", 'price' => 50),
+        array('name' => "Сирники зі сметаною", 'price' => 60),
+        array('name' => "Вареники з вишнями", 'price' => 50),
+    );
+?>
+
 <div id="dessert" data-aos="fade-top" data-aos-delay="300" data-aos-duration="600" class="dessert">
     <div class="container">
         <div class="product_item">
@@ -9,86 +20,18 @@
             </div>
 
             <div class="product_body">
-                <div class="product_body_item">
-                    <div>
-                        <p>Млинці з вишнею</p>
+
+                <?php foreach ($products as $product): ?>
+                    <div class="product_body_item">
+                        <div>
+                            <p><?php echo $product['name']; ?></p>
+                        </div>
+                        <div>
+                            <p><?php echo $product['price']; ?> грн</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>70 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Млинці з сиром</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Млинці з маком</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Сирники</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Вареники на пару</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Вареники з вишнями</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Круасан з шоколадом</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Круасан з фруктовою начинкою</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Пончики з пудрою</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Пончики з шоколадною глазурью</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
+                <?php endforeach; ?>
+
             </div>
         </div>
     </div>

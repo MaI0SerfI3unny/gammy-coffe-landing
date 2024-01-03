@@ -52,7 +52,6 @@ $average_res = $average / $count;
 <?php require "./components/cold_snack.php"; ?>
 <?php require "./components/dessert.php"; ?>
 <?php require "./components/hot_drink.php"; ?>
-<?php require "./components/cold_drink.php"; ?>
 <?php require "./components/form.php"; ?>
 <?php require './components/map.php'; ?>
 <?php require './components/footer.php'; ?>

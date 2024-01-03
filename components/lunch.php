@@ -1,3 +1,17 @@
+<?php 
+    $products = array(
+        array('name' => 'Вівсяна каша з родзинками', 'price' => 35),
+        array('name' => 'Манна каша', 'price' => 30),
+        array('name' => 'Гречка з овочами', 'price' => 40),
+        array('name' => 'Творожний лаваш з овочами', 'price' => 65),
+        array('name' => 'Макарони з пармезаном та квашеним огірком', 'price' => 50),
+        array('name' => 'Сендвіч з шинкою', 'price' => 40),
+        array('name' => 'Сирники зі сметаною', 'price' => 60),
+        array('name' => 'Яєчня "Козацька"', 'price' => 55),
+        array('name' => 'Яєчня з овочами', 'price' => 50),
+    );
+?>
+
 <section id="lunch" class="products" id="products">
     <div data-aos="fade-top" data-aos-delay="300" data-aos-duration="600" class="starter_menu">
     <div class="container">
@@ -15,62 +29,18 @@
             </div>
 
             <div class="product_body">
-                <div class="product_body_item">
-                    <div>
-                        <p>Вівсяна каша з родзинками</p>
+
+                <?php foreach ($products as $product): ?>
+                    <div class="product_body_item">
+                        <div>
+                            <p><?php echo $product['name']; ?></p>
+                        </div>
+                        <div>
+                            <p><?php echo $product['price']; ?> грн</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Манна каша</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Гречка з овочами</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Творожний лаваш з овочами</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Макарони з пармезаном та квашеним огірком</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Сендвіч з шинкою</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Сирники зі сметаною</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
+                <?php endforeach; ?>
+                
             </div>
         </div>
     </div>

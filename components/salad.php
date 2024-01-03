@@ -1,3 +1,21 @@
+<?php 
+    $products = array(
+        array('name' => 'Салат з капусти', 'price' => 40),
+        array('name' => 'Салат "Грецький"', 'price' => 80),
+        array('name' => 'Салат "Цезар"', 'price' => 105),
+        array('name' => 'Салат з бурячка', 'price' => 35),
+        array('name' => 'Салат "Морква по корейськи"', 'price' => 40),
+        array('name' => 'Салат "Бред"', 'price' => 85),
+        array('name' => 'Салат "Дністер"', 'price' => 60),
+        array('name' => 'Салат "Шопський"', 'price' => 80),
+        array('name' => 'Салат "Коул Слоу"', 'price' => 40),
+        array('name' => 'Салат "Венеція"', 'price' => 85),
+        array('name' => 'Салат "Пекін"', 'price' => 70),
+        array('name' => 'Салат "Салат з тунцем"', 'price' => 100),
+        array('name' => 'Салат "Прованс"', 'price' => 85),
+    );
+?>
+
 <div id="salad" data-aos="fade-top" data-aos-delay="300" data-aos-duration="600" class="salad">
     <div class="container">
         <div class="product_item">
@@ -9,94 +27,18 @@
             </div>
 
             <div class="product_body">
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат з капусти 150г</p>
+                
+                <?php foreach ($products as $product): ?>
+                    <div class="product_body_item">
+                        <div>
+                            <p><?php echo $product['name']; ?></p>
+                        </div>
+                        <div>
+                            <p><?php echo $product['price']; ?> грн</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат "Грецький" 250 г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат «Морква по корейськи» 150 гр</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат «Цезар» 300 г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат «Дністер» 200г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат «Шопський» 200гр</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат з тунцем 300 гр</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат «Прованс» 300гр</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат з «Бред» 200 гр</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат «Шопський» 200гр</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Салат «Венеція» 200 гр</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
+                <?php endforeach; ?>
+
             </div>
         </div>
     </div>

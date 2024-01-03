@@ -1,3 +1,14 @@
+<?php 
+    $products = array(
+        array('name' => '"Вуха" до пива', 'price' => 65),
+        array('name' => 'Сир "Косичка"', 'price' => 60),
+        array('name' => 'Крильця "Баффало"', 'price' => 200),
+        array('name' => 'Сирні кульки', 'price' => 60),
+        array('name' => 'Фокачча', 'price' => 50),
+        array('name' => 'Дошка до пива', 'price' => 300),
+    );
+?>
+
 <div data-aos="fade-top" data-aos-delay="300" data-aos-duration="600" class="snack">
     <div class="container">
         <div id="snack" class="product_item">
@@ -9,86 +20,18 @@
             </div>
 
             <div class="product_body">
-                <div class="product_body_item">
-                    <div>
-                        <p>"Вуха" до пива</p>
+
+                <?php foreach ($products as $product): ?>
+                    <div class="product_body_item">
+                        <div>
+                            <p><?php echo $product['name']; ?></p>
+                        </div>
+                        <div>
+                            <p><?php echo $product['price']; ?> грн</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>70 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Сердечка курячі</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Сир "Косічка"</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Сирні кульки</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>ФОКАЧЧА</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Крильця до "БАФФАЛО" 500 Г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Дошка "ДО ПИВА"</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>БЕНКЕТНА ДОШКА</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Лаваш сирний в клярі</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Шампіньйони по іспанськи 200 г</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
+                <?php endforeach; ?>
+                
             </div>
         </div>
     </div>

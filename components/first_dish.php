@@ -1,3 +1,14 @@
+<?php 
+    $products = array(
+        array('name' => 'Бульйон з пельменями', 'price' => 45),
+        array('name' => 'Суп з фрикадельками', 'price' => 60),
+        array('name' => 'Суп овочевий', 'price' => 40),
+        array('name' => 'Суп з куркою', 'price' => 60),
+        array('name' => 'Солянка', 'price' => 60),
+        array('name' => 'Борщ', 'price' => 50),
+    );
+?>
+
 <div id="first_dish" data-aos="fade-top" data-aos-delay="300" data-aos-duration="600" class="first_dish">
     <div class="container">
         <div  class="product_item">
@@ -8,54 +19,17 @@
                 <p class="product_item_title">Перші страви</p>
             </div>
             <div class="product_body">
-                <div class="product_body_item">
-                    <div>
-                        <p>Бульйон з пельменями</p>
+
+                <?php foreach ($products as $product): ?>
+                    <div class="product_body_item">
+                        <div>
+                            <p><?php echo $product['name']; ?></p>
+                        </div>
+                        <div>
+                            <p><?php echo $product['price']; ?> грн</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Суп з фрикадельками</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Суп овочевий</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Суп з куркою</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Солянка</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
-                <div class="product_body_item">
-                    <div>
-                        <p>Борщ</p>
-                    </div>
-                    <div>
-                        <p>60 грн</p>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
