@@ -24,8 +24,8 @@
 
 	<link async rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20231222161755" />
 	<link async rel="stylesheet" href="https://cdn.jsdelivr.net/npm/paginationjs@2.1.5/dist/pagination.css?_v=20231222161755">
-    <script async src="js/libs/jquery-3.6.0.min.js?_v=20231222161755"></script>
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js?_v=20231222161755"></script>
+    <script  src="js/libs/jquery-3.6.0.min.js?_v=20231222161755"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js?_v=20231222161755"></script>
 </head>
 <body>
 <header class="header autoHide">
