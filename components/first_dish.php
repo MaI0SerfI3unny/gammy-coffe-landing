@@ -13,7 +13,7 @@
     <div class="container">
         <div  class="product_item">
         <div class="img_container_tablet">
-            <img src="img/products/product2.png" alt="product">
+            <img src="img/products/product2.webp" alt="product">
         </div>
             <div class="product_item_head">
                 <p class="product_item_title">Перші страви</p>

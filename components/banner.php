@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="banner__col" data-aos="fade-left" data-aos-delay="300" data-aos-duration="600">
-			<img src="img/front/banner.png">
+			<img src="img/front/banner.webp">
 		</div>
 		<div class="banner__col">
 			<div>

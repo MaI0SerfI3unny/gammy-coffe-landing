@@ -3,7 +3,7 @@
     <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="650">Доставляємо по місту Вижниця</p>
     <div class="video_container">
         <div class="video-frame" data-video-id="CPet5-Y3UW0">
-			<img src='img/video/video_cover.jpg' alt='video_cover'>
+			<img src='img/video/video_cover.webp' alt='video_cover'>
 			<div class="iframe"></div>
 		</div>
     </div>

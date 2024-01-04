@@ -13,7 +13,7 @@
     <div class="container">
         <div id="snack" class="product_item">
         <div class="img_container_tablet">
-                <img src="img/products/product8.png" alt="product">
+                <img src="img/products/product8.webp" alt="product">
             </div>
             <div class="product_item_head">
                 <p class="product_item_title">Фірмові закуски</p>

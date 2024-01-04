@@ -992,7 +992,7 @@ textarea {
 
 .products .starter_menu {
   min-height: 620px;
-  background: url("../img/products/product1.png");
+  background: url("../img/products/product1.webp");
   background-repeat: no-repeat;
   background-position: right;
   margin-bottom: 93px;
@@ -1000,7 +1000,7 @@ textarea {
 
 .products .first_dish {
   min-height: 450px;
-  background: url("../img/products/product2.png");
+  background: url("../img/products/product2.webp");
   background-repeat: no-repeat;
   background-position: left;
   margin-bottom: 93px;
@@ -1017,7 +1017,7 @@ textarea {
 
 .products .second_dish {
   min-height: 900px;
-  background: url("../img/products/product3.png");
+  background: url("../img/products/product3.webp");
   background-repeat: no-repeat;
   background-position: right;
   margin-bottom: 116px;
@@ -1025,7 +1025,7 @@ textarea {
 
 .products .pizza {
   min-height: 532px;
-  background: url("../img/products/product4.png");
+  background: url("../img/products/product4.webp");
   background-repeat: no-repeat;
   background-position: left;
   margin-bottom: 166px;
@@ -1042,15 +1042,23 @@ textarea {
 
 .products .salad {
   min-height: 630px;
-  background: url("../img/products/product5.png");
+  background: url("../img/products/product5.webp");
   background-repeat: no-repeat;
   background-position: right top;
   margin-bottom: 125px;
 }
 
+.products .pasta {
+  min-height: 630px;
+  background: url("../img/products/pasta.webp");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 100px) top;
+  margin-bottom: 125px;
+}
+
 .products .fastfood {
   min-height: 862px;
-  background: url("../img/products/product6.png");
+  background: url("../img/products/product6.webp");
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -1066,7 +1074,7 @@ textarea {
 
 .products .snack {
   min-height: 630px;
-  background: url("../img/products/product7.png");
+  background: url("../img/products/product7.webp");
   background-repeat: no-repeat;
   background-position: right center;
   margin-bottom: 56px;
@@ -1074,7 +1082,7 @@ textarea {
 
 .products .cold_snack {
   min-height: 353px;
-  background: url("../img/products/product8.png");
+  background: url("../img/products/product8.webp");
   background-repeat: no-repeat;
   background-position: left;
   margin-bottom: 134px;
@@ -1091,7 +1099,7 @@ textarea {
 
 .products .dessert {
   min-height: 490px;
-  background: url("../img/products/product9.png");
+  background: url("../img/products/product9.webp");
   background-repeat: no-repeat;
   background-position: right center;
   margin-bottom: 100px;
@@ -1099,7 +1107,7 @@ textarea {
 
 .products .hot_drink {
   min-height: 490px;
-  background: url("../img/products/product10.png");
+  background: url("../img/products/product10.webp");
   background-repeat: no-repeat;
   background-position: left center;
   margin-bottom: 100px;
@@ -2079,6 +2087,7 @@ input[type=number] {
   .second_dish::before,
   .pizza::before,
   .salad::before,
+  .pasta::before,
   .fastfood::before,
   .snack::before,
   .cold_snack::before,
@@ -2099,6 +2108,7 @@ input[type=number] {
   .second_dish,
   .pizza,
   .salad,
+  .pasta,
   .fastfood,
   .snack,
   .cold_snack,
@@ -2252,6 +2262,7 @@ input[type=number] {
   .products .second_dish,
   .products .pizza,
   .products .salad,
+  .products .pasta,
   .products .fastfood,
   .products .snack,
   .products .cold_snack,
@@ -2335,10 +2346,13 @@ input[type=number] {
 .menu__btn > span::after {
   transition-duration: .25s;
 }
-
+.pasta .img_container_tablet{
+  max-height: fit-content;
+}
 
 @media (max-width:576px) {
   .menu__btn{
     top: 32px;
   }
 }
+

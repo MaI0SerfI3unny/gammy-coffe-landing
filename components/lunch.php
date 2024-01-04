@@ -18,7 +18,7 @@
         <h2>Меню</h2>
         <div class="product_item">
             <div class="img_container_tablet">
-                <img src="img/products/product1.png" alt="product">
+                <img src="img/products/product1.webp" alt="product">
             </div>
             <div class="product_item_head">
                 <p class="product_item_title">Сніданки</p>

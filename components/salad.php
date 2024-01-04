@@ -20,7 +20,7 @@
     <div class="container">
         <div class="product_item">
             <div class="img_container_tablet">
-                <img src="img/products/salad_mobile.png" alt="product">
+                <img src="img/products/salad_mobile.webp" alt="product">
             </div>
             <div class="product_item_head">
                 <p class="product_item_title">Салати</p>

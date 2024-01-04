@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="logo_container">
 			<a href="/" class="footer__logo">
-				<img src="img/general/footer_logo.png" alt="logo">
+				<img src="img/general/footer_logo.webp" alt="logo">
 			</a>
 		</div>
 		<div class="info_container">
@@ -18,7 +18,7 @@
 			</div>
 			<div class="adress_container">
 				<h4>Адреса</h4>
-				<a href="https://maps.google.com?q=вулиця Чорновола, 4 л Вижниця Чернівецька область Україна 59200" target="_blank">вулиця Чорновола, 4 л 
+				<a href="https://www.google.com/maps/place/%D0%9F%D1%96%D1%86%D0%B5%D1%80%D1%96%D1%8F,+GramCoffee+fast+food./@48.2477783,24.7941622,10z/data=!4m6!3m5!1s0x4736bf49de753a77:0x653f9992674c2fcd!8m2!3d48.248105!4d25.1827443!16s%2Fg%2F11gns0km4l?entry=ttu" target="_blank">вулиця Чорновола, 4 л 
 					Вижниця Чернівецька область
 					Україна<br/>
 					59200</a>

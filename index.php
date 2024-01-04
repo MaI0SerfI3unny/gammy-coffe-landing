@@ -47,6 +47,7 @@ $average_res = $average / $count;
 <?php require "./components/second_dish.php"; ?>
 <?php require "./components/pizza.php"; ?>
 <?php require "./components/salad.php"; ?>
+<?php require "./components/pasta.php"; ?>
 <?php require "./components/fast_food.php"; ?>
 <?php require "./components/snack.php"; ?>
 <?php require "./components/cold_snack.php"; ?>
