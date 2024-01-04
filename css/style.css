@@ -1080,7 +1080,7 @@ textarea {
   min-height: 862px;
   background: url("../img/products/product6.webp");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left top;
 }
 
 .products .fastfood .container {
@@ -2382,15 +2382,28 @@ img {
   height: fit-content;
 }
 
+.fastfood .products .product_item{
+  max-width: 735px;
+}
 
-@media (max-width:1260px) {
-  .fastfood .product_item{
-      max-width: 580px;
+.product_item_container{
+  width: 710px;
+}
+
+@media (max-width: 1350px) {
+  .product_item_container{
+    width: 680px;
   }
 }
 
-@media (max-width:1174px) {
-  .fastfood .product_item{
-    max-width: 610px;
+@media (max-width: 1298px) {
+  .product_item_container{
+    width: 640px;
+  }
+}
+
+@media (max-width: 1237px) {
+  .product_item_container{
+    width: 610px;
   }
 }

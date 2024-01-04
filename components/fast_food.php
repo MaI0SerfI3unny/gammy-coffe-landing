@@ -29,26 +29,28 @@
 
 <div id="fastfood" data-aos="fade-top" data-aos-delay="300" data-aos-duration="600" class="fastfood">
     <div class="container">
-        <div  class="product_item">
-            <div class="img_container_tablet">
-                <img src="img/products/fastfood_mobile.webp" alt="product">
-            </div>
-            <div class="product_item_head">
-                <p class="product_item_title">Фастфуд</p>
-            </div>
-            <div class="product_body">
+        <div class="product_item_container">
+            <div  class="product_item">
+                <div class="img_container_tablet">
+                    <img src="img/products/fastfood_mobile.webp" alt="product">
+                </div>
+                <div class="product_item_head">
+                    <p class="product_item_title">Фастфуд</p>
+                </div>
+                <div class="product_body">
 
-                <?php foreach ($products as $product): ?>
-                    <div class="product_body_item">
-                        <div>
-                            <p><?php echo $product['name']; ?></p>
+                    <?php foreach ($products as $product): ?>
+                        <div class="product_body_item">
+                            <div>
+                                <p><?php echo $product['name']; ?></p>
+                            </div>
+                            <div>
+                                <p><?php echo $product['price']; ?> грн</p>
+                            </div>
                         </div>
-                        <div>
-                            <p><?php echo $product['price']; ?> грн</p>
-                        </div>
-                    </div>
-                <?php endforeach; ?>
+                    <?php endforeach; ?>
 
+                </div>
             </div>
         </div>
     </div>
