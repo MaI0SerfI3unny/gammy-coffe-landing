@@ -452,6 +452,7 @@ textarea {
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+
 .bttn--small {
   border-radius: 50%;
   padding: 0;
@@ -2379,4 +2380,17 @@ input[type=number] {
 img {
   width: fit-content;
   height: fit-content;
+}
+
+
+@media (max-width:1260px) {
+  .fastfood .product_item{
+      max-width: 580px;
+  }
+}
+
+@media (max-width:1174px) {
+  .fastfood .product_item{
+    max-width: 610px;
+  }
 }
