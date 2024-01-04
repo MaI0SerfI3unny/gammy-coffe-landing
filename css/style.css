@@ -726,6 +726,24 @@ textarea {
           align-items: center;
 }
 
+.products .salad{
+  margin-bottom: 0;
+}
+
+.pasta .product_item{
+  padding-top: 125px;
+}
+
+@media (max-width: 1200px) {
+  .products .salad{
+    margin-bottom: 125px;
+  }
+  
+  .pasta .product_item{
+    padding-top: 30px;
+  }
+}
+
 .banner .banner__col:last-child {
   position: absolute;
   bottom: -75px;
@@ -1050,11 +1068,11 @@ textarea {
 }
 
 .products .pasta {
-  min-height: 630px;
+  min-height: 440px;
   background: url("../img/products/pasta.webp");
   background-repeat: no-repeat;
   background-position: calc(100% - 100px) top;
-  margin-bottom: 125px;
+  margin-bottom: 106px;
 }
 
 .products .fastfood {
