@@ -19,7 +19,7 @@
 	<link async href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap&_v=20231222161755" 
 		rel="stylesheet">
 
-	<link async href="https://db.onlinewebfonts.com/c/58e6c78aa3d79ae3187555308dce17a8?family=Caros+Medium&_v=20231222161755" 
+	<link async href="https://db.onlinewebfonts.com/c/58e6c78aa3d79ae3187555308dce17a8?family=Caros+Medium&display=swap&_v=20231222161755" 
 		rel="stylesheet">
 
 	<link async rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20231222161755" />

@@ -56,6 +56,7 @@
 
 @font-face {
   font-family: "Caros Medium";
+  font-display: swap;
   src: url("https://db.onlinewebfonts.com/t/58e6c78aa3d79ae3187555308dce17a8.eot");
   src: url("https://db.onlinewebfonts.com/t/58e6c78aa3d79ae3187555308dce17a8.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/58e6c78aa3d79ae3187555308dce17a8.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/58e6c78aa3d79ae3187555308dce17a8.woff") format("woff"), url("https://db.onlinewebfonts.com/t/58e6c78aa3d79ae3187555308dce17a8.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/58e6c78aa3d79ae3187555308dce17a8.svg#Caros Medium") format("svg");
 }
