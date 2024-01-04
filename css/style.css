@@ -2356,3 +2356,8 @@ input[type=number] {
   }
 }
 
+
+img {
+  width: fit-content;
+  height: fit-content;
+}

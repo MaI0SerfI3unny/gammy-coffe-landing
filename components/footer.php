@@ -36,12 +36,12 @@
 	</div>
 </footer>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20231222161755"></script>
-<script src="https://unpkg.com/imask?_v=20231222161755"></script>
-<script src="https://cdn.jsdelivr.net/npm/paginationjs@2.1.5/dist/pagination.min.js?_v=20231222161755"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js?_v=20231222161755"></script>
-<script type="module" src="js/app.js?_v=20231222161755"></script>
-<script>
+<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20231222161755"></script>
+<script defer src="https://unpkg.com/imask?_v=20231222161755"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/paginationjs@2.1.5/dist/pagination.min.js?_v=20231222161755"></script>
+<script defer src="https://unpkg.com/swiper/swiper-bundle.min.js?_v=20231222161755"></script>
+<script defer type="module" src="js/app.js?_v=20231222161755"></script>
+<script defer>
 
     function createRateYo(containerId, rating, starWidth, boolRead=true) {
         $("#" + containerId).rateYo({

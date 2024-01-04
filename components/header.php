@@ -6,11 +6,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Gram Coffee</title>
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20231222161755" rel="stylesheet">
+	<link async href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20231222161755" rel="stylesheet">
 	<link rel="Shortcut Icon" type="image/x-icon" href="img/general/favicon.svg" />
-	<link rel="stylesheet" href="css/libs/swiper.min.css?_v=20231222161755">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css?_v=20231222161755">
+	<link async rel="stylesheet" href="css/libs/swiper.min.css?_v=20231222161755">
+	<link async rel="stylesheet" href="css/style.css">
+	<link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css?_v=20231222161755">
 	<script src="https://cdn.jsdelivr.net/npm/progressbar.js?_v=20231222161755"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,10 +22,10 @@
 	<link href="https://db.onlinewebfonts.com/c/58e6c78aa3d79ae3187555308dce17a8?family=Caros+Medium&_v=20231222161755" 
 		rel="stylesheet">
 
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20231222161755" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/paginationjs@2.1.5/dist/pagination.css?_v=20231222161755">
-    <script src="js/libs/jquery-3.6.0.min.js?_v=20231222161755"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js?_v=20231222161755"></script>
+	<link async rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20231222161755" />
+	<link async rel="stylesheet" href="https://cdn.jsdelivr.net/npm/paginationjs@2.1.5/dist/pagination.css?_v=20231222161755">
+    <script async src="js/libs/jquery-3.6.0.min.js?_v=20231222161755"></script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js?_v=20231222161755"></script>
 </head>
 <body>
 <header class="header autoHide">
