@@ -11,15 +11,15 @@
 	<link async rel="stylesheet" href="css/libs/swiper.min.css?_v=20231222161755">
 	<link async rel="stylesheet" href="css/style.css">
 	<link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css?_v=20231222161755">
-	<script src="https://cdn.jsdelivr.net/npm/progressbar.js?_v=20231222161755"></script>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap&_v=20231222161755"
+	<script async src="https://cdn.jsdelivr.net/npm/progressbar.js?_v=20231222161755"></script>
+	<link async rel="preconnect" href="https://fonts.googleapis.com">
+	<link async rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link async href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap&_v=20231222161755"
 		rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap&_v=20231222161755" 
+	<link async href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap&_v=20231222161755" 
 		rel="stylesheet">
 
-	<link href="https://db.onlinewebfonts.com/c/58e6c78aa3d79ae3187555308dce17a8?family=Caros+Medium&_v=20231222161755" 
+	<link async href="https://db.onlinewebfonts.com/c/58e6c78aa3d79ae3187555308dce17a8?family=Caros+Medium&_v=20231222161755" 
 		rel="stylesheet">
 
 	<link async rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20231222161755" />
