@@ -6,7 +6,8 @@ functions.spollers();
 // БАЗОВІ СКРИПТИ
 import './modules/base.js';
 
-
+// ТАБИ
+import './modules/tabs.js';
 
 $(document).ready(function () {
   AOS.init();
@@ -54,9 +55,10 @@ $(document).ready(function () {
 });
 
 import './modules/rating.js';
+import './modules/progress.js';
 import './modules/video.js';
-import './modules/available_like.js';
-import './modules/get_comment.js';
-import './modules/post_comment.js';
+
+import './modules/popup.js';
+
 
 import './libs/dynamicAdapt.js';
